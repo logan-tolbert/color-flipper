@@ -1,0 +1,40 @@
+body {
+    margin: 0 ;
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+div {
+    text-align: center;
+}
+
+button {
+    border-radius: 10px;
+    padding: .75em 1.25em;
+    cursor: pointer;
+    box-shadow: 2px 2px 2px 1px rgb(0 0 0 / 20%);
+    font-size: 1rem;
+    background-color:#3b3b4f;
+    color: #dfdfe2
+}
+
+
+footer {
+    text-align: center;
+    width: 100%;
+    position: fixed;
+    bottom: 10px;
+  }
+
+p {
+    margin-bottom: 5px;
+}
+
+img {
+    height: 28px;
+}
